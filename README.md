@@ -1,4 +1,4 @@
-﻿# GameConsciente
+# GameConsciente
 
 Site educativo e psicológico sobre a influência dos jogos no consumo e no bem-estar de adolescentes.
 
@@ -8,4 +8,4 @@ Site educativo e psicológico sobre a influência dos jogos no consumo e no bem-
 - Perguntas de reflexão
 - Chat com assistente educativo
 
-Acesse: https://vitoo-ti.github.io/game-consciente/
+Acesse: https://projeto-mmv.github.io/game-consciente/
