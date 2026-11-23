@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Consciente — Jogos, Consumo e Adolescência</title>
+  <meta name="description" content="Programa educativo e psicológico sobre a influência dos jogos no consumo e no bem-estar de adolescentes.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <a href="#inicio" class="logo">🎮 Game<span>Consciente</span></a>
+    <button class="menu-btn" aria-label="Abrir menu" onclick="document.querySelector('.nav').classList.toggle('aberto')">☰</button>
+    <nav class="nav" onclick="this.classList.remove('aberto')">
+      <a href="#sobre">Sobre</a>
+      <a href="#efeitos">Efeitos</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#programas">Programinhas</a>
+      <a href="#reflexao">Reflexão</a>
+      <a href="#chat">Chat</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="hero-texto">
+      <span class="tag">Programa educativo e psicológico</span>
+      <h1>Jogar é bom.<br><span class="grad">Jogar consciente é melhor.</span></h1>
+      <p>Entenda como os jogos digitais influenciam o comportamento, as emoções e o <strong>consumo</strong> de adolescentes — e aprenda a manter o controle do jogo, dentro e fora da tela.</p>
+      <div class="hero-botoes">
+        <a href="#quiz" class="btn btn-prim">▶ Jogar o Quiz</a>
+        <a href="#sobre" class="btn btn-sec">Saber mais</a>
+      </div>
+    </div>
+    <div class="hero-cards">
+      <div class="stat"><b>3 bi+</b><span>de pessoas jogam no mundo</span></div>
+      <div class="stat"><b>~ 7 em 10</b><span>adolescentes brasileiros jogam com frequência</span></div>
+      <div class="stat"><b>2019</b><span>OMS reconhece o “transtorno de jogo” (CID-11)</span></div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="secao">
+    <h2>Os jogos e o consumo na adolescência</h2>
+    <p class="sub">Os jogos deixaram de ser só diversão: hoje são também lojas, redes sociais e vitrines.</p>
+    <div class="grid3">
+      <article class="card">
+        <div class="ico">🛒</div>
+        <h3>Microtransações</h3>
+        <p>Skins, passes de batalha, moedas virtuais... Pequenos valores parecem inofensivos, mas somados podem virar muito dinheiro. As moedas virtuais “escondem” o valor real em reais.</p>
+      </article>
+      <article class="card">
+        <div class="ico">🎰</div>
+        <h3>Loot boxes (caixas de recompensa)</h3>
+        <p>Caixas com prêmios aleatórios funcionam de forma parecida com apostas. Elas ativam o sistema de recompensa do cérebro (dopamina), o que pode estimular gastos impulsivos.</p>
+      </article>
+      <article class="card">
+        <div class="ico">📣</div>
+        <h3>Influenciadores e publicidade</h3>
+        <p>Streamers e youtubers mostram itens, jogos e produtos. A vontade de “ter o que todo mundo tem” cria pressão social e o medo de ficar de fora (FOMO).</p>
+      </article>
+      <article class="card">
+        <div class="ico">⏳</div>
+        <h3>Ofertas por tempo limitado</h3>
+        <p>“Só hoje!”, “Últimas horas!” — contadores e eventos temporários criam urgência e fazem a pessoa decidir sem pensar.</p>
+      </article>
+      <article class="card">
+        <div class="ico">🧠</div>
+        <h3>Design que prende</h3>
+        <p>Recompensas diárias, sequências de login e notificações são pensadas para fazer o jogador voltar sempre e ficar mais tempo.</p>
+      </article>
+      <article class="card">
+        <div class="ico">👥</div>
+        <h3>Identidade e pertencimento</h3>
+        <p>Na adolescência, ser aceito pelo grupo é muito importante. Ter certa skin ou rank pode virar sinal de status — e isso influencia o que se compra.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- EFEITOS -->
+  <section id="efeitos" class="secao alt">
+    <h2>Efeitos colaterais: os dois lados do jogo</h2>
+    <p class="sub">Jogos não são vilões. O problema está no excesso e na falta de equilíbrio.</p>
+    <div class="lados">
+      <div class="lado bom">
+        <h3>✅ Lado positivo</h3>
+        <ul>
+          <li>Desenvolve raciocínio lógico, estratégia e reflexos</li>
+          <li>Estimula trabalho em equipe e comunicação</li>
+          <li>Pode ensinar idiomas, história e ciências</li>
+          <li>Ajuda a aliviar o estresse (com moderação)</li>
+          <li>Cria amizades e comunidades</li>
+        </ul>
+      </div>
+      <div class="lado ruim">
+        <h3>⚠️ Lado negativo (no excesso)</h3>
+        <ul>
+          <li>Prejuízo no sono e no rendimento escolar</li>
+          <li>Ansiedade, irritabilidade e isolamento</li>
+          <li>Gastos impulsivos e dívidas escondidas</li>
+          <li>Exposição a cyberbullying, golpes e aliciamento</li>
+          <li>Sedentarismo, dores e cansaço visual</li>
+          <li>Dependência (transtorno de jogo — OMS)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="alerta">
+      <h3>🚩 Sinais de alerta</h3>
+      <div class="chips">
+        <span>Perder a noção do tempo</span><span>Mentir sobre quanto joga</span><span>Ficar irritado sem jogar</span>
+        <span>Deixar de lado amigos e estudos</span><span>Gastar escondido</span><span>Dormir muito tarde</span>
+        <span>Jogar para fugir de problemas</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="quiz" class="secao">
+    <h2>Quiz: Você sabe agir com segurança?</h2>
+    <p class="sub">Estilo Kahoot! Responda rápido: quanto mais rápido acertar, mais pontos você ganha.</p>
+    <div class="quiz-box" id="quizBox"></div>
+  </section>
+
+  <!-- PROGRAMINHAS -->
+  <section id="programas" class="secao alt">
+    <h2>Programinhas educativos</h2>
+    <p class="sub">Ferramentas interativas para refletir sobre seus hábitos.</p>
+
+    <div class="tabs">
+      <button class="tab ativo" data-tab="gastos">💸 Calculadora de gastos</button>
+      <button class="tab" data-tab="tempo">⏰ Tempo de tela</button>
+      <button class="tab" data-tab="vf">✔️ Verdadeiro ou Falso</button>
+      <button class="tab" data-tab="teste">🧪 Autoavaliação</button>
+      <button class="tab" data-tab="lootbox">🎁 Simulador de Loot Box</button>
+    </div>
+
+    <!-- Calculadora de gastos -->
+    <div class="painel ativo" id="tab-gastos">
+      <h3>Quanto você realmente gasta em jogos?</h3>
+      <p>Pequenas compras somam rápido. Descubra o valor em um ano.</p>
+      <div class="form">
+        <label>Valor médio por compra (R$)<input type="number" id="gValor" value="20" min="0"></label>
+        <label>Compras por mês<input type="number" id="gQtd" value="4" min="0"></label>
+        <button class="btn btn-prim" onclick="calcGastos()">Calcular</button>
+      </div>
+      <div class="resultado" id="gRes"></div>
+    </div>
+
+    <!-- Tempo de tela -->
+    <div class="painel" id="tab-tempo">
+      <h3>Para onde vai o seu tempo?</h3>
+      <p>Arraste para indicar quantas horas por dia você joga.</p>
+      <div class="form">
+        <label>Horas por dia: <b id="tHorasTxt">3</b>h<input type="range" id="tHoras" min="0" max="14" value="3" step="0.5"></label>
+      </div>
+      <div class="resultado" id="tRes"></div>
+    </div>
+
+    <!-- Verdadeiro ou falso -->
+    <div class="painel" id="tab-vf">
+      <h3>Mito ou verdade?</h3>
+      <div class="vf-card" id="vfCard"></div>
+    </div>
+
+    <!-- Autoavaliação -->
+    <div class="painel" id="tab-teste">
+      <h3>Como está sua relação com os jogos?</h3>
+      <p>Marque as frases que combinam com você nos últimos meses. (Isto não é diagnóstico — é só para refletir.)</p>
+      <div id="testeLista" class="checklist"></div>
+      <button class="btn btn-prim" onclick="avaliar()">Ver resultado</button>
+      <div class="resultado" id="testeRes"></div>
+    </div>
+
+    <!-- Loot box -->
+    <div class="painel" id="tab-lootbox">
+      <h3>Simulador de Loot Box</h3>
+      <p>Cada caixa custa <b>R$ 10</b>. A chance de vir o item <span class="lend">LENDÁRIO</span> é de apenas <b>1%</b>. Quanto você gastaria até conseguir?</p>
+      <div class="loot-area">
+        <div class="caixa" id="caixa">🎁</div>
+        <div class="loot-info">
+          <p>Caixas abertas: <b id="lCaixas">0</b></p>
+          <p>Gasto total: <b id="lGasto">R$ 0</b></p>
+          <p>Último item: <b id="lItem">—</b></p>
+        </div>
+      </div>
+      <div class="form">
+        <button class="btn btn-prim" onclick="abrirCaixa(1)">Abrir 1 caixa</button>
+        <button class="btn btn-sec" onclick="abrirCaixa(10)">Abrir 10</button>
+        <button class="btn btn-sec" onclick="resetLoot()">Recomeçar</button>
+      </div>
+      <div class="resultado" id="lRes"></div>
+    </div>
+  </section>
+
+  <!-- REFLEXÃO -->
+  <section id="reflexao" class="secao">
+    <h2>Perguntas abertas para refletir</h2>
+    <p class="sub">Escreva suas respostas. Elas ficam salvas só no seu navegador — ninguém mais vê.</p>
+    <div id="reflexoes" class="grid2"></div>
+  </section>
+
+  <!-- CHAT -->
+  <section id="chat" class="secao alt">
+    <h2>Converse com o Gui 🤖</h2>
+    <p class="sub">Um assistente virtual para tirar dúvidas sobre jogos, consumo, segurança e emoções.</p>
+    <div class="chat-box">
+      <div class="chat-msgs" id="chatMsgs"></div>
+      <div class="chat-sugestoes" id="chatSug"></div>
+      <form class="chat-form" onsubmit="enviarChat(event)">
+        <input id="chatInput" type="text" placeholder="Escreva sua mensagem..." autocomplete="off">
+        <button class="btn btn-prim" type="submit">Enviar</button>
+      </form>
+    </div>
+    <p class="aviso">O Gui é um robô educativo e não substitui um profissional. Se você estiver passando por um momento difícil, ligue <b>188 (CVV)</b> — gratuito, 24h — ou converse com um adulto de confiança.</p>
+  </section>
+
+  <footer class="rodape">
+    <p>🎮 GameConsciente — Projeto escolar educativo sobre jogos, consumo e saúde mental na adolescência.</p>
+    <p>Precisa de ajuda? <b>CVV: 188</b> · <b>Disque 100</b> (Direitos Humanos) · <b>SaferNet</b>: new.safernet.org.br</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
